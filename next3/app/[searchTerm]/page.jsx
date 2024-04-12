@@ -1,5 +1,5 @@
 import React from 'react'
-import getWikiResults from '@/lib/getWikiResults'
+import getWikiResults from '../../lib/getWikiResults'
 import Item from './components/Item'
 
 export async function generateMetadata({ params }){
